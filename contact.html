@@ -9,6 +9,7 @@
   <meta name="author" content="">
 
   <title>SSK Ostroj Opava - Kontakt</title>
+  <link rel="shortcut icon" type="image/png" href="/img/favicon.png">
 
   <!-- Bootstrap core CSS -->
   <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -24,7 +25,7 @@
   <nav class="navbar fixed-top navbar-expand-lg navbar-light shadow bg-light fixed-top">
     <div class="container">
       <a href="index.html"><img src="/img/ssk-ostroj-opava-logo.jpeg" class="logo" alt="logo"></a>
-      <a class="navbar-brand" href="index.html">SSK Ostroj Opava</a>
+      <a class="navbar-brand ml-4" href="index.html">SSK Ostroj Opava</a>
       <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
@@ -138,27 +139,27 @@
         <form name="sentMessage" id="contactForm" novalidate>
           <div class="control-group form-group">
             <div class="controls">
-              <label>Jméno:</label>
-              <input type="text" class="form-control" id="name" required data-validation-required-message="Please enter your name.">
+              <label>Celé jméno:</label>
+              <input type="text" class="form-control" id="name" required data-validation-required-message="Prosím zadejte celé jméno.">
               <p class="help-block"></p>
             </div>
           </div>
           <div class="control-group form-group">
             <div class="controls">
               <label>Telefón:</label>
-              <input type="tel" class="form-control" id="phone" required data-validation-required-message="Please enter your phone number.">
+              <input type="tel" class="form-control" id="phone" required data-validation-required-message="Prosím zadejte telefonní číslo.">
             </div>
           </div>
           <div class="control-group form-group">
             <div class="controls">
               <label>Email:</label>
-              <input type="email" class="form-control" id="email" required data-validation-required-message="Please enter your email address.">
+              <input type="email" class="form-control" id="email" required data-validation-required-message="Prosím zadejte email.">
             </div>
           </div>
           <div class="control-group form-group">
             <div class="controls">
-              <label>Dotaz:</label>
-              <textarea rows="10" cols="100" class="form-control" id="message" required data-validation-required-message="Please enter your message" maxlength="999" style="resize:none"></textarea>
+              <label>Zpráva:</label>
+              <textarea rows="10" cols="100" class="form-control" id="message" required data-validation-required-message="Prosím zadejte zprávu" maxlength="999" style="resize:none"></textarea>
             </div>
           </div>
           <div id="success"></div>
@@ -174,8 +175,10 @@
   <!-- /.container -->
 
   <!-- Footer -->
-  <footer claslight shadowy-5 light">
+  <footer class="py-5 bg-dark">
     <div class="container">
+      <p class="mb-4 text-white">ČSS, z.s. - SSK Ostroj Opava je podporován Ministerstvem školství, mládeže a tělovýchovy – MŠMT - a podporován a celoročně spolufinancován z rozpočtu
+        Magistrátu města Opavy.</p>
       <p class="m-0 text-center text-white">Copyright &copy; Jakub Hudymač 2020</p>
     </div>
     <!-- /.container -->
