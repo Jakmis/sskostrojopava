@@ -32,3 +32,6 @@ nav{
   font-size: large;
 }
 
+a{
+  text-decoration: none;
+}
