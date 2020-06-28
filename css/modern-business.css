@@ -32,6 +32,27 @@ nav{
   font-size: large;
 }
 
-a{
-  text-decoration: none;
+.animace
+           {
+               animation: fade 0.5s ease-in-out;
+           }
+           @keyframes fade{
+                from{
+                    opacity: 0;
+            }
+                to{
+                    opacity: 1;
+            }
+
+            }
+footer ul{
+  list-style-type: none;
+  font-size: larger;
+  display: flex;
+  
+
 }
+footer a:visited, footer a:hover, footer a:link{
+  color: white;
+}
+          
